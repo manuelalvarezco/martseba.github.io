@@ -1,0 +1,17 @@
+commit 25e62dc5e47efbe9681302bb42f3911d64094454
+Author: Manuel <alvarezbautista.luis@gmail.com>
+Date:   Thu Jul 6 10:54:13 2017 -0500
+
+    Se cambio los estilos y se agrego un boton
+
+commit 9afe5d57023a5111b4b400ed41b19fb66e3719d6
+Author: Manuel <alvarezbautista.luis@gmail.com>
+Date:   Thu Jul 6 10:47:40 2017 -0500
+
+    Eliminamos el icono medium de la pagina
+
+commit dcde3653223e3d3416365b48ccb215dcc02f80da
+Author: Manuel <alvarezbautista.luis@gmail.com>
+Date:   Thu Jul 6 10:43:42 2017 -0500
+
+    Iniciemos

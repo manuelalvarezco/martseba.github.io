@@ -1,0 +1,57 @@
+Definir nombre
+git config --global user.name "Manuel"
+ver la config git config --global user.name
+
+Configurar correo
+git config --global user.email "mamama@gmail.com"
+
+Configurar colores de resultados
+git config --global colot.ui true
+
+ver lo que hicimos
+git config --global --list
+
+- escoger carpeta del proyecto
+C:/Desktop/Codigo Facilito
+
+Iniciamos el proyecto
+git init
+solo se utiliza una vez al iniciar el proy
+
+Mirar el estado del proyecto
+git status
+
+Agregar archivos
+git add index.html ò css ò js ò imagenes
+esto para agregar uno a uno 
+para agregar todo seria
+git add -A
+
+Guardar cambios realidos 
+git commit -m "Mensaje max 50 caract" ej "Se cambio css en x boton"
+
+! cuando realizamos un cambio en html o css o js los cambios se reflejan en git al analizar el status, una vez modificado se puede guardamos lo que hemos hecho con el comando git add -A para despues comentarlo con el comando git commit -m "hemos agragado un boton"
+
+Ver los cambios que se han hecho
+git log
+
+ir en el tiempo en el proyecto
+git checkout dcde3653223e3d3416365b48ccb215dcc02f80da 
+
+nota: la pagina se actualiza automaticamente al momento que escojemos 
+
+actualizar al ultimo commit "pagina actual"
+git checkout master
+
+eliminar comit 
+git reset -soft no toca el working-area osea el codigo
+git reset --mixed no borra el staging area y el working area "no utilizado"
+git reset --hard borra TODO
+
+sacar txt con los commit
+git log > commits.txt
+
+ayuda de comandos 
+git help
+git help "status, add"
+
